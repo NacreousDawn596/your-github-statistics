@@ -11,7 +11,7 @@ except:
 data = json.loads(os.popen(f"curl -s {token}https://api.github.com/users/{sys.argv[1]}/repos").read())
 
 def normal(num, idk):
-	return int(num * 100/idk)*4
+	return int(num * 100/idk)
 
 lang = {}
 
